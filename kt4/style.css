@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@1&family=Merriweather&family=Monda:wght@700&family=Montserrat:wght@200&family=Nunito:wght@600&family=Open+Sans&family=Poppins&family=Roboto&display=swap');
+body{
+    background-color: orange;
+
+}
+@media only screen and (max-width:1024px) {
+    h1 {
+        font-size: 40px;
+    }
+    .box {
+        width:90%;
+    }
+}
+@media only screen and (max-width:840px) {
+    h1 {
+        font-size: 40px;
+    }
+    .box {
+        width:80%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+        h1 {
+        font-size: 30px;
+    }
+    .box {
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width:400px) {
+    h1 {
+        font-size: 20px;
+    }
+    .box {
+        width: 70%;
+    }
+    
+}
+
+@media only screen and (max-width:300px) {
+    h1 {
+        font-size: 20px;
+    }
+    .box {
+        width: 70%;
+    }
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(29, 29, 29);
+    font-size: 60px;
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: rgb(47, 201, 27);
+}
+.box{
+    align-self: center;
+    background-color: rgb(232, 245, 220);
+    border-radius: 4%;
+    height: 250px;
+    width: 30%;
+    margin: 15px;
+    display: flex;
+    flex-flow: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    width: 100%;
+    margin: 0;
+}
+.text2{
+    font-size: 13px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+.line{
+    height: 2px;
+    width: 90px;
+    background-color: rgb(255, 0, 0);
+    margin-top: -32px
+}
+.num{
+    color: rgb(46, 46, 46);
+    font-size: 40px;
+    margin: 0;
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.conteiner{
+    max-width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1100px;
+    justify-content: center;
+}
